@@ -1,65 +1,115 @@
-# RandomPswdGenerator
+# 🔐 Random Password Generator & Strength Checker
 
-🔐 Random Password Generator
+A front-end utility application built using **HTML, CSS, and JavaScript** that generates strong random passwords and evaluates their strength based on complexity rules. The tool helps users quickly create secure passwords for everyday use while visually understanding their strength levels.
 
-📌 Overview
+---
 
-A Random Password Generator built using HTML, CSS, and JavaScript to generate strong, secure passwords instantly. Users can customize the length and include special characters, numbers, and uppercase letters.
+## 🚀 Features
 
-🚀 Features
+* Generate random passwords instantly
+* Select custom password length
+* Include/exclude:
 
-✅ Generate random passwords instantly
+  * Uppercase letters
+  * Lowercase letters
+  * Numbers
+  * Special symbols
+* Password Strength Classification:
 
-✅ Customize password length
+  * Weak
+  * Moderate
+  * Strong
+* Copy to Clipboard button
+* Real-time strength indicator
+* Pure front-end (no backend required)
 
-✅ Include numbers, symbols, and uppercase letters
+---
 
-✅ Copy password to clipboard
+## 🧠 Password Strength Logic
 
-✅ Responsive and user-friendly design
+Strength is evaluated based on:
 
-📂 Project Structure
+✔ Length
+✔ Character diversity
+✔ Special symbols usage
 
-📁 Random-Password-Generator
-│── 📄 index.html    # Main HTML structure
-│── 📄 styles.css    # Styling file
-│── 📄 scripts.js    # JavaScript logic
-│── 📄 README.md     # Documentation
+Rules may include:
 
-🛠 Technologies Used
+* **Weak** → Short length + limited character types
+* **Moderate** → Medium length + mixed characters
+* **Strong** → Long + includes all character sets
 
-HTML5
+Visual indicators guide the user during creation.
 
-CSS3
+---
 
-JavaScript (ES6+)
+## 🧱 Tech Stack
 
-🎮 How to Use
+| Layer       | Technology       |
+| ----------- | ---------------- |
+| Structure   | HTML5            |
+| Styling     | CSS3             |
+| Interaction | JavaScript (ES6) |
+| Deployment  | GitHub Pages     |
 
-Open index.html in a browser.
+---
 
-Choose password length.
+## 📂 Project Structure
 
-Select character types (numbers, symbols, uppercase letters, etc.).
+```
+📁 RandomPswdGenerator
+│── index.html
+│── style.css
+└── script.js
+```
 
-Click Generate Password.
+---
 
-Copy and use your strong password securely. 🔒
+## 🖥️ How to Use
 
+1. Open application in browser
+2. Adjust password length slider
+3. Select optional character sets
+4. Click **Generate Password**
+5. View strength indicator
+6. Copy to clipboard if needed
 
+---
 
+## 🌐 Live Demo
 
-📥 Installation
+👉 [https://pariveshtiwari.github.io/RandomPswdGenerator/](https://pariveshtiwari.github.io/RandomPswdGenerator/)
 
-Navigate to the project folder:
+---
 
-cd random-password-generator
+## 🏗️ Run Locally
 
-Open index.html in your browser.
+Clone the repo:
 
-🌟 Contribution
+```bash
+git clone https://github.com/Pariveshtiwari/RandomPswdGenerator.git
+cd RandomPswdGenerator
+```
 
-Feel free to fork the repo, improve features, and submit a pull request. Let's build secure solutions together! 💡
+Open:
 
-Keep your accounts secure, one password at a time! 🔐🚀
+```
+index.html
+```
+
+---
+
+## 📦 Future Enhancements
+
+Potential upgrades:
+
+* Export multiple passwords at once
+* Save generated passwords securely
+* Add strength recommendations
+* Toggle hide/show characters
+* Mobile UI improvements
+
+---
+
+Made with ❤️ by **Parivesh Tiwari**
 
